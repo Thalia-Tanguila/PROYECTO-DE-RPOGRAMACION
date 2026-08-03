@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidad 2 | Portafolio</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <canvas id="particles"></canvas>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <header class="topbar glass">
+      <a class="brand" href="index.html"><span>✦</span><strong>Portafolio Celeste</strong></a>
+      <nav class="nav-links">
+        <a href="unidad1.html">Unidad 1</a>
+        <a href="unidad2.html" class="active">Unidad 2</a>
+        <a href="unidad3.html">Unidad 3</a>
+      </nav>
+      <div class="topbar-actions">
+        <button id="themeToggle" class="ghost-btn">🌙 Modo oscuro</button>
+      </div>
+    </header>
+
+    <main class="container page">
+      <section class="glass page-hero">
+        <div>
+          <p class="eyebrow">Unidad 2</p>
+          <h1>Diseño y desarrollo web</h1>
+          <p>Material visual y práctico para profundizar en la estructura, estilo y experiencia del usuario.</p>
+        </div>
+        <div class="search-box">
+          <input id="searchInput" type="search" placeholder="Buscar tema..." />
+        </div>
+      </section>
+
+      <section class="topics-grid">
+        <article class="glass topic-card" data-topic="HTML semántico">
+          <div class="topic-icon">🧱</div>
+          <h3>Tema 1</h3>
+          <p>HTML semántico y organización del contenido.</p>
+          <div class="topic-tags"><span>Documentos</span><span>Enlaces</span><span>Explicaciones</span></div>
+          <div class="card-actions">
+            <button class="btn small primary view-btn">Ver trabajo</button>
+            <button class="btn small secondary add-btn">Agregar contenido</button>
+          </div>
+          <div class="attachments"><a href="documentos/guia-unidad.txt" download>Descargar documento</a><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></div>
+          <div class="custom-content-list"></div>
+        </article>
+
+        <article class="glass topic-card" data-topic="CSS moderno">
+          <div class="topic-icon">🎨</div>
+          <h3>Tema 2</h3>
+          <p>Estilos, layouts y diseño responsivo con CSS.</p>
+          <div class="topic-tags"><span>Imágenes</span><span>PDF</span><span>Trabajos realizados</span></div>
+          <div class="card-actions">
+            <button class="btn small primary view-btn">Ver trabajo</button>
+            <button class="btn small secondary add-btn">Agregar contenido</button>
+          </div>
+          <div class="attachments"><a href="pdf/guia-unidad.pdf" target="_blank">Ver PDF</a><a href="imagenes/perfil.svg" target="_blank">Ver imagen</a></div>
+          <div class="custom-content-list"></div>
+        </article>
+
+        <article class="glass topic-card" data-topic="JavaScript interactivo">
+          <div class="topic-icon">⚡</div>
+          <h3>Tema 3</h3>
+          <p>Interactividad y programación del lado del cliente.</p>
+          <div class="topic-tags"><span>Videos</span><span>Código fuente</span><span>Enlaces</span></div>
+          <div class="card-actions">
+            <button class="btn small primary view-btn">Ver trabajo</button>
+            <button class="btn small secondary add-btn">Agregar contenido</button>
+          </div>
+          <div class="attachments"><a href="videos/demo.mp4" target="_blank">Ver video</a><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">JavaScript</a></div>
+          <div class="custom-content-list"></div>
+        </article>
+
+        <article class="glass topic-card" data-topic="Accesibilidad">
+          <div class="topic-icon">♿</div>
+          <h3>Tema 4</h3>
+          <p>Buenas prácticas de accesibilidad y experiencia del usuario.</p>
+          <div class="topic-tags"><span>Documentos</span><span>Explicaciones</span><span>Trabajos realizados</span></div>
+          <div class="card-actions">
+            <button class="btn small primary view-btn">Ver trabajo</button>
+            <button class="btn small secondary add-btn">Agregar contenido</button>
+          </div>
+          <div class="attachments"><a href="documentos/guia-unidad.txt" download>Descargar documento</a><a href="pdf/guia-unidad.pdf" target="_blank">Abrir PDF</a></div>
+          <div class="custom-content-list"></div>
+        </article>
+
+        <article class="glass topic-card" data-topic="Proyecto de interfaz">
+          <div class="topic-icon">🌐</div>
+          <h3>Tema 5</h3>
+          <p>Diseño de una interfaz completa con navegación y contenido.</p>
+          <div class="topic-tags"><span>Videos</span><span>Imágenes</span><span>Enlaces</span></div>
+          <div class="card-actions">
+            <button class="btn small primary view-btn">Ver trabajo</button>
+            <button class="btn small secondary add-btn">Agregar contenido</button>
+          </div>
+          <div class="attachments"><a href="videos/demo.mp4" target="_blank">Ver video</a><a href="imagenes/perfil.svg" target="_blank">Ver imagen</a></div>
+          <div class="custom-content-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <button id="backToTop" class="back-top">↑</button>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-content glass">
+        <button id="closeModal" class="close-btn">✕</button>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
