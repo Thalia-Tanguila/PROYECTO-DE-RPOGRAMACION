@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio Estudiantil | Proyecto de Programación</title>
-    <meta name="description" content="Portafolio profesional creativo, moderno y dinámico con diseño celeste." />
+    <title>Portafolio Rosa | Thalia Tanguila</title>
+    <meta name="description" content="Portafolio profesional, elegante y moderno para mostrar trabajos de ingeniería en software." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -12,41 +12,27 @@
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <div id="loader" class="loader"><div class="loader-ring"></div></div>
-    <div class="scroll-progress"></div>
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
-    <canvas id="particles"></canvas>
-    <div class="bg-orb orb-1"></div>
-    <div class="bg-orb orb-2"></div>
-    <div class="bg-orb orb-3"></div>
-
     <header class="topbar glass">
-      <a class="brand" href="index.html"><span><i class="fa-solid fa-sparkles"></i></span><strong>Portafolio Celeste</strong></a>
+      <a class="brand" href="index.html"><span>✦</span><strong>Portafolio Rosa</strong></a>
       <nav class="nav-links">
-        <a href="unidad1.html"><i class="fa-solid fa-book-open"></i> Unidad 1</a>
-        <a href="unidad2.html"><i class="fa-solid fa-layer-group"></i> Unidad 2</a>
-        <a href="unidad3.html"><i class="fa-solid fa-rocket"></i> Unidad 3</a>
+        <a href="index.html" class="active">Inicio</a>
+        <a href="unidad1.html">Unidad 1</a>
+        <a href="unidad2.html">Unidad 2</a>
+        <a href="unidad3.html">Unidad 3</a>
       </nav>
-      <div class="topbar-actions">
-        <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
-      </div>
+      <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
     </header>
 
     <main class="container">
-      <section class="hero-panel glass reveal">
+      <section class="hero glass reveal">
         <div class="hero-copy">
-          <p class="eyebrow"><i class="fa-solid fa-sparkles"></i> Bienvenid@ a mi portafolio académico</p>
+          <p class="eyebrow"><i class="fa-solid fa-heart"></i> Portafolio académico</p>
           <h1>Hola, soy <span id="typed-name">Thalia Tanguila</span></h1>
-          <p class="intro">Soy estudiante universitaria apasionada por la programación, el diseño y la creación de experiencias digitales modernas, claras y atractivas.</p>
+          <p class="intro">Soy estudiante de Ingeniería en Software y este portafolio reúne mis trabajos de forma elegante, clara y profesional para compartir con mi profesor.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="unidad1.html"><i class="fa-solid fa-compass"></i> Explorar unidades</a>
-            <a class="btn secondary" href="#rating-section"><i class="fa-solid fa-star"></i> Ver calificación</a>
-          </div>
-          <div class="hero-badges">
-            <span class="chip"><i class="fa-solid fa-cubes"></i> Diseño creativo</span>
-            <span class="chip"><i class="fa-solid fa-code"></i> Programación</span>
-            <span class="chip"><i class="fa-solid fa-lightbulb"></i> ideas claras</span>
+            <a class="btn primary" href="unidad1.html">Explorar unidad 1</a>
+            <a class="btn secondary" href="unidad2.html">Explorar unidad 2</a>
+            <a class="btn secondary" href="unidad3.html">Explorar unidad 3</a>
           </div>
         </div>
 
@@ -54,7 +40,7 @@
           <img src="imagenes/perfil.jpeg" alt="Foto de perfil" />
           <div class="profile-info">
             <h2>Thalia Tanguila</h2>
-            <p class="biography">Estudiante de Ingeniería en Software con interés por construir experiencias web elegantes, funcionales y con identidad propia.</p>
+            <p class="biography">Estudiante universitaria apasionada por el diseño, la programación y la creación de experiencias digitales modernas.</p>
             <ul>
               <li><strong>Materia:</strong> Programación</li>
               <li><strong>Carrera:</strong> Ingeniería en Software</li>
@@ -65,49 +51,41 @@
         </div>
       </section>
 
-      <section class="dashboard-grid">
-        <aside class="glass card rating-card reveal" id="rating-section">
+      <section class="section-grid">
+        <article class="glass card reveal">
           <h3><i class="fa-solid fa-star"></i> Calificación de unidades</h3>
           <div class="rating-table">
             <div class="rating-row"><span>Unidad 1</span><div class="stars" data-unit="1"></div></div>
             <div class="rating-row"><span>Unidad 2</span><div class="stars" data-unit="2"></div></div>
             <div class="rating-row"><span>Unidad 3</span><div class="stars" data-unit="3"></div></div>
           </div>
-        </aside>
+        </article>
 
-        <div class="glass card quick-links reveal">
-          <h3><i class="fa-solid fa-folder-open"></i> Explora tus proyectos</h3>
+        <article class="glass card reveal">
+          <h3><i class="fa-solid fa-folder-open"></i> Explora mis unidades</h3>
           <div class="unit-grid">
             <a class="unit-card" href="unidad1.html">
               <h4>Unidad 1</h4>
-              <p>Fundamentos, documentos y ejercicios iniciales.</p>
+              <p>Trabajos iniciales, fundamentos y ejercicios.</p>
             </a>
             <a class="unit-card" href="unidad2.html">
               <h4>Unidad 2</h4>
-              <p>Diseño, organización y estructuras creativas.</p>
+              <p>Diseño visual, diagramas y estructura creativa.</p>
             </a>
             <a class="unit-card" href="unidad3.html">
               <h4>Unidad 3</h4>
-              <p>Presentación profesional y cierre del portafolio.</p>
+              <p>Presentación final y integración de proyectos.</p>
             </a>
           </div>
           <div class="status-bar">
             <span><i class="fa-solid fa-eye"></i> <span id="visitCount">0 visitas</span></span>
             <span><i class="fa-solid fa-clock"></i> <span id="date">--/--/----</span></span>
           </div>
-        </div>
+        </article>
       </section>
     </main>
 
     <button id="backToTop" class="back-top"><i class="fa-solid fa-arrow-up"></i></button>
-
-    <div id="modal" class="modal hidden">
-      <div class="modal-content glass">
-        <button id="closeModal" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
-        <div id="modalBody"></div>
-      </div>
-    </div>
-
     <script src="js/script.js"></script>
   </body>
 </html>

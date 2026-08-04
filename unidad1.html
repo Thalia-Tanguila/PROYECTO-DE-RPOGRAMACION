@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unidad 1 | Portafolio</title>
+    <title>Unidad 1 | Portafolio Rosa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -11,103 +11,79 @@
     <link rel="stylesheet" href="css/estilos.css" />
   </head>
   <body>
-    <div id="loader" class="loader"><div class="loader-ring"></div></div>
-    <div class="scroll-progress"></div>
-    <div class="cursor-dot"></div>
-    <div class="cursor-outline"></div>
-    <canvas id="particles"></canvas>
-    <div class="bg-orb orb-1"></div>
-    <div class="bg-orb orb-2"></div>
-    <div class="bg-orb orb-3"></div>
-
     <header class="topbar glass">
-      <a class="brand" href="index.html"><span><i class="fa-solid fa-sparkles"></i></span><strong>Portafolio Celeste</strong></a>
+      <a class="brand" href="index.html"><span>✦</span><strong>Portafolio Rosa</strong></a>
       <nav class="nav-links">
-        <a href="unidad1.html" class="active"><i class="fa-solid fa-book-open"></i> Unidad 1</a>
-        <a href="unidad2.html"><i class="fa-solid fa-layer-group"></i> Unidad 2</a>
-        <a href="unidad3.html"><i class="fa-solid fa-rocket"></i> Unidad 3</a>
+        <a href="index.html">Inicio</a>
+        <a href="unidad1.html" class="active">Unidad 1</a>
+        <a href="unidad2.html">Unidad 2</a>
+        <a href="unidad3.html">Unidad 3</a>
       </nav>
-      <div class="topbar-actions">
-        <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
-      </div>
+      <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
     </header>
 
-    <main class="container page">
-      <section class="glass page-hero reveal">
+    <main class="container">
+      <section class="page-hero glass reveal">
         <div>
           <p class="eyebrow"><i class="fa-solid fa-book"></i> Unidad 1</p>
-          <h1>Fundamentos y primeros proyectos</h1>
-          <p>Espacio creativo para subir videos, archivos PDF, imágenes, ejercicios resueltos y galerías organizadas.</p>
+          <h1>Trabajos de la Unidad 1</h1>
+          <p>Organiza tus proyectos de forma elegante y lista para mostrar al profesor.</p>
         </div>
         <div class="hero-badges">
-          <span class="chip"><i class="fa-solid fa-video"></i> Videos</span>
-          <span class="chip"><i class="fa-solid fa-file-pdf"></i> PDFs</span>
-          <span class="chip"><i class="fa-solid fa-images"></i> Imágenes</span>
+          <span class="chip"><i class="fa-solid fa-layer-group"></i> 3 temas</span>
+          <span class="chip"><i class="fa-solid fa-palette"></i> Diseño rosa</span>
         </div>
       </section>
 
-      <section class="resource-grid">
-        <article class="glass resource-card reveal">
-          <div class="resource-icon"><i class="fa-solid fa-video"></i></div>
-          <h3>Subir videos</h3>
-          <p>Comparte explicaciones, demostraciones o grabaciones de clase.</p>
-          <label class="file-input"><span>Seleccionar video</span><input type="file" accept="video/*" /></label>
-          <button class="btn small primary resource-action">Guardar video</button>
-        </article>
-
-        <article class="glass resource-card reveal">
-          <div class="resource-icon"><i class="fa-solid fa-file-pdf"></i></div>
-          <h3>Agregar archivos PDF</h3>
-          <p>Organiza guías, apuntes y documentos de estudio.</p>
-          <label class="file-input"><span>Subir PDF</span><input type="file" accept="application/pdf" /></label>
-          <button class="btn small secondary resource-action">Guardar PDF</button>
-        </article>
-
-        <article class="glass resource-card reveal">
-          <div class="resource-icon"><i class="fa-solid fa-image"></i></div>
-          <h3>Insertar imágenes realizadas en clase</h3>
-          <p>Agrega fotografías, bocetos o capturas visuales de tus actividades.</p>
-          <label class="file-input"><span>Seleccionar imagen</span><input type="file" accept="image/*" /></label>
-          <button class="btn small primary resource-action">Guardar imagen</button>
-        </article>
-
-        <article class="glass resource-card reveal">
-          <div class="resource-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-          <h3>Ejercicios resueltos</h3>
-          <p>Registra problemas resueltos y explicaciones paso a paso.</p>
-          <textarea rows="4" placeholder="Escribe aquí tu ejercicio o resumen..."></textarea>
-          <button class="btn small secondary resource-action">Agregar ejercicio</button>
-        </article>
-      </section>
-
-      <section class="glass gallery-section reveal">
-        <h3><i class="fa-solid fa-images"></i> Galería de imágenes</h3>
-        <div class="gallery-grid">
-          <div class="gallery-card" data-lightbox="imagenes/perfil.jpeg">
-            <img src="imagenes/perfil.jpeg" alt="Galería 1" />
-            <span>Trabajo creativo</span>
+      <section class="work-grid">
+        <article class="work-card glass reveal">
+          <img class="work-image" src="imagenes/perfil.jpeg" alt="Tema 1" />
+          <div class="work-body">
+            <h3>Tema 1</h3>
+            <p>Aquí escribiré la descripción del trabajo para mostrar el contenido de forma clara y profesional.</p>
+            <div class="work-meta"><span>Fecha: 2026</span></div>
+            <div class="work-actions">
+              <a class="btn small primary action-link" href="trabajos/plantilla.html">👁 Ver trabajo</a>
+              <a class="btn small secondary action-link" href="pdf/plantilla.pdf">📄 Ver PDF</a>
+              <a class="btn small secondary action-link" href="https://github.com/" target="_blank" rel="noopener">💻 Ver código</a>
+              <a class="btn small secondary action-link" href="videos/plantilla.mp4">🎥 Ver video</a>
+            </div>
           </div>
-          <div class="gallery-card" data-lightbox="imagenes/perfil.jpeg">
-            <img src="imagenes/perfil.jpeg" alt="Galería 2" />
-            <span>Actividad en clase</span>
+        </article>
+
+        <article class="work-card glass reveal">
+          <img class="work-image" src="imagenes/perfil.jpeg" alt="Tema 2" />
+          <div class="work-body">
+            <h3>Tema 2</h3>
+            <p>Este espacio puede contener una explicación breve del proyecto, su objetivo o el proceso que seguí.</p>
+            <div class="work-meta"><span>Fecha: 2026</span></div>
+            <div class="work-actions">
+              <a class="btn small primary action-link" href="trabajos/plantilla.html">👁 Ver trabajo</a>
+              <a class="btn small secondary action-link" href="pdf/plantilla.pdf">📄 Ver PDF</a>
+              <a class="btn small secondary action-link" href="https://github.com/" target="_blank" rel="noopener">💻 Ver código</a>
+              <a class="btn small secondary action-link" href="videos/plantilla.mp4">🎥 Ver video</a>
+            </div>
           </div>
-          <div class="gallery-card" data-lightbox="imagenes/perfil.jpeg">
-            <img src="imagenes/perfil.jpeg" alt="Galería 3" />
-            <span>Diseño final</span>
+        </article>
+
+        <article class="work-card glass reveal">
+          <img class="work-image" src="imagenes/perfil.jpeg" alt="Tema 3" />
+          <div class="work-body">
+            <h3>Tema 3</h3>
+            <p>Modifica este texto y las rutas de los botones solo desde el HTML cuando quieras actualizar tus trabajos.</p>
+            <div class="work-meta"><span>Fecha: 2026</span></div>
+            <div class="work-actions">
+              <a class="btn small primary action-link" href="trabajos/plantilla.html">👁 Ver trabajo</a>
+              <a class="btn small secondary action-link" href="pdf/plantilla.pdf">📄 Ver PDF</a>
+              <a class="btn small secondary action-link" href="https://github.com/" target="_blank" rel="noopener">💻 Ver código</a>
+              <a class="btn small secondary action-link" href="videos/plantilla.mp4">🎥 Ver video</a>
+            </div>
           </div>
-        </div>
+        </article>
       </section>
     </main>
 
     <button id="backToTop" class="back-top"><i class="fa-solid fa-arrow-up"></i></button>
-
-    <div id="modal" class="modal hidden">
-      <div class="modal-content glass">
-        <button id="closeModal" class="close-btn"><i class="fa-solid fa-xmark"></i></button>
-        <div id="modalBody"></div>
-      </div>
-    </div>
-
     <script src="js/script.js"></script>
   </body>
 </html>
