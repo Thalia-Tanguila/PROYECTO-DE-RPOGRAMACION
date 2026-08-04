@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio Estudiantil | Proyecto de Programación</title>
-    <meta name="description" content="Portafolio profesional de un estudiante universitario con unidades, proyectos y contenido interactivo." />
+    <meta name="description" content="Portafolio profesional creativo, moderno y dinámico con diseño celeste." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -34,118 +34,67 @@
     </header>
 
     <main class="container">
-      <section class="hero glass reveal">
-        <div class="hero-content">
-          <div class="hero-text">
-            <p class="eyebrow"><i class="fa-solid fa-sparkles"></i> Bienvenid@ a mi portafolio académico</p>
-            <h1>Hola, soy <span id="typed-name">Thalia Tanguila</span></h1>
-            <p class="intro">Soy estudiante universitaria apasionada por la programación, el diseño y la creación de experiencias digitales modernas con enfoque profesional y creativo.</p>
-            <div class="hero-actions">
-              <a class="btn primary" href="#unidad-seccion"><i class="fa-solid fa-compass"></i> Explorar unidades</a>
-              <a class="btn secondary" href="unidad1.html"><i class="fa-solid fa-folder-open"></i> Ver trabajos</a>
-            </div>
-            <div class="hero-badges">
-              <span class="chip"><i class="fa-solid fa-cubes"></i> Portafolio creativo</span>
-              <span class="chip"><i class="fa-solid fa-code"></i> Diseño y desarrollo</span>
-              <span class="chip"><i class="fa-solid fa-star"></i> Experiencia premium</span>
-            </div>
+      <section class="hero-panel glass reveal">
+        <div class="hero-copy">
+          <p class="eyebrow"><i class="fa-solid fa-sparkles"></i> Bienvenid@ a mi portafolio académico</p>
+          <h1>Hola, soy <span id="typed-name">Thalia Tanguila</span></h1>
+          <p class="intro">Soy estudiante universitaria apasionada por la programación, el diseño y la creación de experiencias digitales modernas, claras y atractivas.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="unidad1.html"><i class="fa-solid fa-compass"></i> Explorar unidades</a>
+            <a class="btn secondary" href="#rating-section"><i class="fa-solid fa-star"></i> Ver calificación</a>
           </div>
-          <div class="profile-card reveal">
-            <div class="profile-photo-shell">
-              <img src="imagenes/perfil.jpeg" alt="Foto de perfil" />
-            </div>
-            <div class="profile-details">
-              <h2>Thalia Tanguila</h2>
-              <ul>
-                <li><strong>Estado civil:</strong> Soltera</li>
-                <li><strong>Materia:</strong> Programación</li>
-                <li><strong>Carrera:</strong> Ingeniería en Software</li>
-                <li><strong>Universidad:</strong> Universidad Técnica de Cotopaxi</li>
-                <li><strong>Semestre:</strong> Noveno</li>
-              </ul>
-            </div>
+          <div class="hero-badges">
+            <span class="chip"><i class="fa-solid fa-cubes"></i> Diseño creativo</span>
+            <span class="chip"><i class="fa-solid fa-code"></i> Programación</span>
+            <span class="chip"><i class="fa-solid fa-lightbulb"></i> ideas claras</span>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img src="imagenes/perfil.jpeg" alt="Foto de perfil" />
+          <div class="profile-info">
+            <h2>Thalia Tanguila</h2>
+            <p class="biography">Estudiante de Ingeniería en Software con interés por construir experiencias web elegantes, funcionales y con identidad propia.</p>
+            <ul>
+              <li><strong>Materia:</strong> Programación</li>
+              <li><strong>Carrera:</strong> Ingeniería en Software</li>
+              <li><strong>Universidad:</strong> Universidad Técnica de Cotopaxi</li>
+              <li><strong>Semestre:</strong> Noveno</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section class="overview-grid">
-        <aside class="left-column">
-          <div class="glass card rating-card reveal">
-            <h3><i class="fa-solid fa-star"></i> Calificación de unidades</h3>
-            <div class="rating-table">
-              <div class="rating-row"><span>Unidad 1</span><div class="stars" data-unit="1"></div></div>
-              <div class="rating-row"><span>Unidad 2</span><div class="stars" data-unit="2"></div></div>
-              <div class="rating-row"><span>Unidad 3</span><div class="stars" data-unit="3"></div></div>
-            </div>
+      <section class="dashboard-grid">
+        <aside class="glass card rating-card reveal" id="rating-section">
+          <h3><i class="fa-solid fa-star"></i> Calificación de unidades</h3>
+          <div class="rating-table">
+            <div class="rating-row"><span>Unidad 1</span><div class="stars" data-unit="1"></div></div>
+            <div class="rating-row"><span>Unidad 2</span><div class="stars" data-unit="2"></div></div>
+            <div class="rating-row"><span>Unidad 3</span><div class="stars" data-unit="3"></div></div>
           </div>
-
         </aside>
 
-        <div class="right-column">
-          <div class="glass card status-card reveal">
-            <div class="widget-head">
-              <h3><i class="fa-solid fa-screwdriver-wrench"></i> Herramientas del portafolio</h3>
-              <div class="widget-date">
-                <span id="clock">--:--:--</span>
-                <span id="date">--/--/----</span>
-              </div>
-            </div>
-            <div class="chip-group">
-              <span class="chip"><i class="fa-solid fa-magnifying-glass"></i> Buscador de temas</span>
-              <span class="chip"><i class="fa-solid fa-video"></i> Reproductor de videos</span>
-              <span class="chip"><i class="fa-solid fa-file-pdf"></i> Visor de PDF</span>
-              <span class="chip"><i class="fa-solid fa-download"></i> Descargas</span>
-            </div>
-            <div class="chip-group">
-              <span class="pill"><i class="fa-solid fa-eye"></i> <span id="visitCount">0 visitas</span></span>
-              <span class="pill"><i class="fa-solid fa-clock"></i> Reloj digital</span>
-            </div>
-          </div>
-
-          <div id="unidad-seccion" class="unit-grid">
-            <a class="glass unit-card reveal" href="unidad1.html">
-              <h3><i class="fa-solid fa-book"></i> Unidad 1</h3>
-              <p>Explora temas, documentos, imágenes y trabajos de esta primera etapa.</p>
-              <span class="unit-link">Ir a unidad →</span>
+        <div class="glass card quick-links reveal">
+          <h3><i class="fa-solid fa-folder-open"></i> Explora tus proyectos</h3>
+          <div class="unit-grid">
+            <a class="unit-card" href="unidad1.html">
+              <h4>Unidad 1</h4>
+              <p>Fundamentos, documentos y ejercicios iniciales.</p>
             </a>
-            <a class="glass unit-card reveal" href="unidad2.html">
-              <h3><i class="fa-solid fa-layer-group"></i> Unidad 2</h3>
-              <p>Contenido organizado con explicaciones y recursos visuales.</p>
-              <span class="unit-link">Ir a unidad →</span>
+            <a class="unit-card" href="unidad2.html">
+              <h4>Unidad 2</h4>
+              <p>Diseño, organización y estructuras creativas.</p>
             </a>
-            <a class="glass unit-card reveal" href="unidad3.html">
-              <h3><i class="fa-solid fa-rocket"></i> Unidad 3</h3>
-              <p>Recursos avanzados, videos y materiales para el aprendizaje práctico.</p>
-              <span class="unit-link">Ir a unidad →</span>
+            <a class="unit-card" href="unidad3.html">
+              <h4>Unidad 3</h4>
+              <p>Presentación profesional y cierre del portafolio.</p>
             </a>
           </div>
-        </div>
-      </section>
-
-      <section class="glass section-card reveal">
-        <h3><i class="fa-solid fa-video"></i> Videos y documentos</h3>
-        <div class="video-grid">
-          <div class="video-card">
-            <div class="video-preview"><i class="fa-solid fa-play"></i></div>
-            <h4>Video de demostración</h4>
-            <p>Contenido audiovisual para reforzar el aprendizaje de cada unidad.</p>
-            <a class="btn small primary" href="videos/demo.mp4" target="_blank"><i class="fa-solid fa-play"></i> Ver video</a>
+          <div class="status-bar">
+            <span><i class="fa-solid fa-eye"></i> <span id="visitCount">0 visitas</span></span>
+            <span><i class="fa-solid fa-clock"></i> <span id="date">--/--/----</span></span>
           </div>
-          <div class="video-card">
-            <div class="video-preview"><i class="fa-solid fa-file-pdf"></i></div>
-            <h4>Visor de PDF</h4>
-            <p>Documentos organizados con una vista previa elegante.</p>
-            <a class="btn small secondary" href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Abrir PDF</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="glass section-card reveal">
-        <h3><i class="fa-solid fa-route"></i> Línea de tiempo</h3>
-        <div class="timeline-grid">
-          <div class="timeline-item"><h4>Unidad 1</h4><p>Fundamentos y primeras entregas de la asignatura.</p></div>
-          <div class="timeline-item"><h4>Unidad 2</h4><p>Construcción visual y lógica web con diseño responsivo.</p></div>
-          <div class="timeline-item"><h4>Unidad 3</h4><p>Presentación profesional, integración y portafolio final.</p></div>
         </div>
       </section>
     </main>

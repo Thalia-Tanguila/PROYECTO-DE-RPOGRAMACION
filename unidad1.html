@@ -37,88 +37,65 @@
         <div>
           <p class="eyebrow"><i class="fa-solid fa-book"></i> Unidad 1</p>
           <h1>Fundamentos y primeros proyectos</h1>
-          <p>Recursos ordenados por tema para revisar conceptos clave, ejercicios y entregas realizadas en clase.</p>
+          <p>Espacio creativo para subir videos, archivos PDF, imágenes, ejercicios resueltos y galerías organizadas.</p>
         </div>
-        <div class="search-box">
-          <input id="searchInput" type="search" placeholder="Buscar tema..." />
+        <div class="hero-badges">
+          <span class="chip"><i class="fa-solid fa-video"></i> Videos</span>
+          <span class="chip"><i class="fa-solid fa-file-pdf"></i> PDFs</span>
+          <span class="chip"><i class="fa-solid fa-images"></i> Imágenes</span>
         </div>
       </section>
 
-      <section class="topics-grid">
-        <article class="glass topic-card reveal" data-topic="Introducción a la programación">
-          <div class="topic-icon">💡</div>
-          <h3>Tema 1</h3>
-          <p>Introducción a la programación y su lógica básica.</p>
-          <div class="topic-tags"><span>Documentos</span><span>Explicaciones</span><span>Enlaces</span></div>
-          <div class="card-actions">
-            <button class="btn small primary view-btn"><i class="fa-solid fa-eye"></i> Ver trabajo</button>
-            <button class="btn small secondary add-btn"><i class="fa-solid fa-plus"></i> Agregar contenido</button>
-            <button class="btn small secondary download-btn"><i class="fa-solid fa-download"></i> Descargar</button>
-            <button class="btn small secondary edit-btn"><i class="fa-solid fa-pen"></i> Editar</button>
-          </div>
-          <div class="attachments"><a href="documentos/guia-unidad.txt" download><i class="fa-solid fa-file"></i> Documento</a><a href="pdf/guia-unidad.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> PDF</a></div>
-          <div class="custom-content-list"></div>
+      <section class="resource-grid">
+        <article class="glass resource-card reveal">
+          <div class="resource-icon"><i class="fa-solid fa-video"></i></div>
+          <h3>Subir videos</h3>
+          <p>Comparte explicaciones, demostraciones o grabaciones de clase.</p>
+          <label class="file-input"><span>Seleccionar video</span><input type="file" accept="video/*" /></label>
+          <button class="btn small primary resource-action">Guardar video</button>
         </article>
 
-        <article class="glass topic-card reveal" data-topic="Variables y estructuras">
-          <div class="topic-icon">🧠</div>
-          <h3>Tema 2</h3>
-          <p>Variables, tipos de datos, estructuras y operadores.</p>
-          <div class="topic-tags"><span>Código fuente</span><span>Imágenes</span><span>Trabajos realizados</span></div>
-          <div class="card-actions">
-            <button class="btn small primary view-btn"><i class="fa-solid fa-eye"></i> Ver trabajo</button>
-            <button class="btn small secondary add-btn"><i class="fa-solid fa-plus"></i> Agregar contenido</button>
-            <button class="btn small secondary download-btn"><i class="fa-solid fa-download"></i> Descargar</button>
-            <button class="btn small secondary edit-btn"><i class="fa-solid fa-pen"></i> Editar</button>
-          </div>
-          <div class="attachments"><a href="documentos/guia-unidad.txt" download><i class="fa-solid fa-file"></i> Documento</a><a href="imagenes/perfil.jpeg" target="_blank"><i class="fa-solid fa-image"></i> Imagen</a></div>
-          <div class="custom-content-list"></div>
+        <article class="glass resource-card reveal">
+          <div class="resource-icon"><i class="fa-solid fa-file-pdf"></i></div>
+          <h3>Agregar archivos PDF</h3>
+          <p>Organiza guías, apuntes y documentos de estudio.</p>
+          <label class="file-input"><span>Subir PDF</span><input type="file" accept="application/pdf" /></label>
+          <button class="btn small secondary resource-action">Guardar PDF</button>
         </article>
 
-        <article class="glass topic-card reveal" data-topic="Condicionales y ciclos">
-          <div class="topic-icon">🔁</div>
-          <h3>Tema 3</h3>
-          <p>Condicionales, bucles y toma de decisiones en programas.</p>
-          <div class="topic-tags"><span>Videos</span><span>Explicaciones</span><span>Enlaces</span></div>
-          <div class="card-actions">
-            <button class="btn small primary view-btn"><i class="fa-solid fa-eye"></i> Ver trabajo</button>
-            <button class="btn small secondary add-btn"><i class="fa-solid fa-plus"></i> Agregar contenido</button>
-            <button class="btn small secondary download-btn"><i class="fa-solid fa-download"></i> Descargar</button>
-            <button class="btn small secondary edit-btn"><i class="fa-solid fa-pen"></i> Editar</button>
-          </div>
-          <div class="attachments"><a href="videos/demo.mp4" target="_blank"><i class="fa-solid fa-video"></i> Video</a><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">MDN</a></div>
-          <div class="custom-content-list"></div>
+        <article class="glass resource-card reveal">
+          <div class="resource-icon"><i class="fa-solid fa-image"></i></div>
+          <h3>Insertar imágenes realizadas en clase</h3>
+          <p>Agrega fotografías, bocetos o capturas visuales de tus actividades.</p>
+          <label class="file-input"><span>Seleccionar imagen</span><input type="file" accept="image/*" /></label>
+          <button class="btn small primary resource-action">Guardar imagen</button>
         </article>
 
-        <article class="glass topic-card reveal" data-topic="Funciones y modularidad">
-          <div class="topic-icon">🧩</div>
-          <h3>Tema 4</h3>
-          <p>Diseño modular y organización del código con funciones.</p>
-          <div class="topic-tags"><span>Documentos</span><span>Código fuente</span><span>Trabajos realizados</span></div>
-          <div class="card-actions">
-            <button class="btn small primary view-btn"><i class="fa-solid fa-eye"></i> Ver trabajo</button>
-            <button class="btn small secondary add-btn"><i class="fa-solid fa-plus"></i> Agregar contenido</button>
-            <button class="btn small secondary download-btn"><i class="fa-solid fa-download"></i> Descargar</button>
-            <button class="btn small secondary edit-btn"><i class="fa-solid fa-pen"></i> Editar</button>
-          </div>
-          <div class="attachments"><a href="documentos/guia-unidad.txt" download><i class="fa-solid fa-file"></i> Documento</a><a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></div>
-          <div class="custom-content-list"></div>
+        <article class="glass resource-card reveal">
+          <div class="resource-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h3>Ejercicios resueltos</h3>
+          <p>Registra problemas resueltos y explicaciones paso a paso.</p>
+          <textarea rows="4" placeholder="Escribe aquí tu ejercicio o resumen..."></textarea>
+          <button class="btn small secondary resource-action">Agregar ejercicio</button>
         </article>
+      </section>
 
-        <article class="glass topic-card reveal" data-topic="Proyecto final de unidad">
-          <div class="topic-icon">🚀</div>
-          <h3>Tema 5</h3>
-          <p>Proyecto final con aplicación de todos los conocimientos vistos.</p>
-          <div class="topic-tags"><span>PDF</span><span>Videos</span><span>Explicaciones</span></div>
-          <div class="card-actions">
-            <button class="btn small primary view-btn"><i class="fa-solid fa-eye"></i> Ver trabajo</button>
-            <button class="btn small secondary add-btn"><i class="fa-solid fa-plus"></i> Agregar contenido</button>
-            <button class="btn small secondary download-btn"><i class="fa-solid fa-download"></i> Descargar</button>
-            <button class="btn small secondary edit-btn"><i class="fa-solid fa-pen"></i> Editar</button>
+      <section class="glass gallery-section reveal">
+        <h3><i class="fa-solid fa-images"></i> Galería de imágenes</h3>
+        <div class="gallery-grid">
+          <div class="gallery-card" data-lightbox="imagenes/perfil.jpeg">
+            <img src="imagenes/perfil.jpeg" alt="Galería 1" />
+            <span>Trabajo creativo</span>
           </div>
-          <div class="attachments"><a href="pdf/guia-unidad.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> PDF</a><a href="videos/demo.mp4" target="_blank"><i class="fa-solid fa-video"></i> Video</a></div>
-          <div class="custom-content-list"></div>
-        </article>
+          <div class="gallery-card" data-lightbox="imagenes/perfil.jpeg">
+            <img src="imagenes/perfil.jpeg" alt="Galería 2" />
+            <span>Actividad en clase</span>
+          </div>
+          <div class="gallery-card" data-lightbox="imagenes/perfil.jpeg">
+            <img src="imagenes/perfil.jpeg" alt="Galería 3" />
+            <span>Diseño final</span>
+          </div>
+        </div>
       </section>
     </main>
 
