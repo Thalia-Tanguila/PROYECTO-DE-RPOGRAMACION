@@ -3,87 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unidad 2 | Portafolio Rosa</title>
+    <title>Unidad 2 | Portafolio BTS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@500;600;700&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="topbar glass">
-      <a class="brand" href="index.html"><span>✦</span><strong>Portafolio Rosa</strong></a>
-      <nav class="nav-links">
-        <a href="index.html">Inicio</a>
-        <a href="unidad1.html">Unidad 1</a>
-        <a href="unidad2.html" class="active">Unidad 2</a>
-        <a href="unidad3.html">Unidad 3</a>
-      </nav>
-      <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
-    </header>
+    <div class="site-shell">
+      <header class="topbar glass">
+        <a class="brand" href="index.html">
+          <img src="imagenes/bts-logo.svg" alt="Logo BTS" />
+          <strong>Thalia Tanguila</strong>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="unidad1.html">Unidad 1</a>
+          <a href="unidad2.html" class="active">Unidad 2</a>
+          <a href="unidad3.html">Unidad 3</a>
+        </nav>
+        <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
+      </header>
 
-    <main class="container">
-      <section class="page-hero glass reveal">
-        <div>
-          <p class="eyebrow"><i class="fa-solid fa-layer-group"></i> Unidad 2</p>
-          <h1>Trabajos de la Unidad 2</h1>
-          <p>Presenta tus ideas, procesos y resultados con una estética más limpia y atractiva.</p>
-        </div>
-        <div class="hero-badges">
-          <span class="chip"><i class="fa-solid fa-diagram-project"></i> 3 temas</span>
-          <span class="chip"><i class="fa-solid fa-sparkles"></i> Creatividad</span>
-        </div>
-      </section>
-
-      <section class="work-grid">
-        <article class="work-card glass reveal">
-          <img class="work-image" src="imagenesz" alt="Tema 1" />
-          <div class="work-body">
-            <h3>Tema 1</h3>
-            <p>Describe aquí tu trabajo de la unidad 2 con una vista breve y atractiva para el profesor.</p>
-            <div class="work-meta"><span>Fecha: 2026</span></div>
-            <div class="work-actions">
-              <a class="btn small primary action-link" href="trabajos/plantilla.html">👁 Ver trabajo</a>
-              <a class="btn small secondary action-link" href="pdf/plantilla.pdf">📄 Ver PDF</a>
-              <a class="btn small secondary action-link" href="https://github.com/" target="_blank" rel="noopener">💻 Ver código</a>
-              <a class="btn small secondary action-link" href="videos/plantilla.mp4">🎥 Ver video</a>
-            </div>
+      <main class="container">
+        <section class="page-hero glass reveal page-two">
+          <div>
+            <p class="eyebrow"><i class="fa-solid fa-layer-group"></i> Unidad 2</p>
+            <h1>Trabajos de la Unidad 2</h1>
+            <p>Presenta tus ideas, procesos y resultados con una estética más fresca, moderna y llena de energía visual.</p>
           </div>
-        </article>
+        </section>
 
-        <article class="work-card glass reveal">
-          <img class="work-image" src="imagenes/perfil.jpeg" alt="Tema 2" />
-          <div class="work-body">
-            <h3>Tema 2</h3>
-            <p>Este bloque puede usarse para mostrar otro proyecto, ejercicio o avance del tema trabajado.</p>
-            <div class="work-meta"><span>Fecha: 2026</span></div>
-            <div class="work-actions">
-              <a class="btn small primary action-link" href="trabajos/plantilla.html">👁 Ver trabajo</a>
-              <a class="btn small secondary action-link" href="pdf/plantilla.pdf">📄 Ver PDF</a>
-              <a class="btn small secondary action-link" href="https://github.com/" target="_blank" rel="noopener">💻 Ver código</a>
-              <a class="btn small secondary action-link" href="videos/plantilla.mp4">🎥 Ver video</a>
+        <section class="work-grid">
+          <article class="work-card glass reveal">
+            <img src="imagenes/actividad1.jpg" alt="Tema 1" />
+            <div class="work-body">
+              <h3>Tema 1</h3>
+              <p>Describe aquí tu trabajo de la unidad 2 con una vista breve y atractiva para el profesor.</p>
+              <div class="work-meta"><span>Fecha: 2026</span></div>
+              <div class="work-actions">
+                <a class="btn btn-primary" href="trabajos/plantilla.html">Ver trabajo</a>
+                <a class="btn btn-secondary" href="pdf/plantilla.pdf">Ver PDF</a>
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
 
-        <article class="work-card glass reveal">
-          <img class="work-image" src="imagenes/perfil.jpeg" alt="Tema 3" />
-          <div class="work-body">
-            <h3>Tema 3</h3>
-            <p>Actualiza este contenido cuando quieras mostrar un nuevo avance o una entrega completa.</p>
-            <div class="work-meta"><span>Fecha: 2026</span></div>
-            <div class="work-actions">
-              <a class="btn small primary action-link" href="trabajos/plantilla.html">👁 Ver trabajo</a>
-              <a class="btn small secondary action-link" href="pdf/plantilla.pdf">📄 Ver PDF</a>
-              <a class="btn small secondary action-link" href="https://github.com/" target="_blank" rel="noopener">💻 Ver código</a>
-              <a class="btn small secondary action-link" href="videos/plantilla.mp4">🎥 Ver video</a>
+          <article class="work-card glass reveal">
+            <img src="imagenes/actividad2.jpg" alt="Tema 2" />
+            <div class="work-body">
+              <h3>Tema 2</h3>
+              <p>Este bloque puede mostrar otro proyecto, ejercicio o avance del tema trabajado con estilo premium.</p>
+              <div class="work-meta"><span>Fecha: 2026</span></div>
+              <div class="work-actions">
+                <a class="btn btn-primary" href="trabajos/plantilla.html">Ver trabajo</a>
+                <a class="btn btn-secondary" href="pdf/plantilla.pdf">Ver PDF</a>
+              </div>
             </div>
-          </div>
-        </article>
-      </section>
-    </main>
+          </article>
+
+          <article class="work-card glass reveal">
+            <img src="imagenes/actividad4.jpg" alt="Tema 3" />
+            <div class="work-body">
+              <h3>Tema 3</h3>
+              <p>Actualiza este contenido cuando quieras mostrar un nuevo avance o una entrega completa.</p>
+              <div class="work-meta"><span>Fecha: 2026</span></div>
+              <div class="work-actions">
+                <a class="btn btn-primary" href="trabajos/plantilla.html">Ver trabajo</a>
+                <a class="btn btn-secondary" href="pdf/plantilla.pdf">Ver PDF</a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
 
     <button id="backToTop" class="back-top"><i class="fa-solid fa-arrow-up"></i></button>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

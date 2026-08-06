@@ -3,133 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio Rosa | Thalia Tanguila</title>
+    <title>Portafolio BTS | Thalia Tanguila</title>
     <meta name="description" content="Portafolio profesional, elegante y moderno para mostrar trabajos de ingeniería en software." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@500;600;700&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="topbar glass">
-      <a class="brand" href="index.html"><span>✦</span><strong>Portafolio Rosa</strong></a>
-      <nav class="nav-links">
-        <a href="index.html" class="active">Inicio</a>
-        <a href="unidad1.html">Unidad 1</a>
-        <a href="unidad2.html">Unidad 2</a>
-        <a href="unidad3.html">Unidad 3</a>
-      </nav>
-      <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
-    </header>
+    <div class="site-shell">
+      <header class="topbar glass">
+        <a class="brand" href="index.html">
+          <img src="imagenes/bts-logo.svg" alt="Logo BTS" />
+          <strong>Thalia Tanguila</strong>
+        </a>
+        <nav class="nav-links">
+          <a href="index.html" class="active">Inicio</a>
+          <a href="unidad1.html">Unidad 1</a>
+          <a href="unidad2.html">Unidad 2</a>
+          <a href="unidad3.html">Unidad 3</a>
+        </nav>
+        <button id="themeToggle" class="ghost-btn"><i class="fa-solid fa-moon"></i> Modo oscuro</button>
+      </header>
 
-    <main class="container">
-      <section class="hero glass reveal">
-        <div class="hero-copy">
-          <div class="hero-badges">
-            <span class="chip"><i class="fa-solid fa-heart"></i> BTS vibe</span>
-            <span class="chip"><i class="fa-solid fa-star"></i> Diseño elegante</span>
-          </div>
-          <p class="eyebrow"><i class="fa-solid fa-heart"></i> Portafolio académico</p>
-          <h1>Hola, soy <span id="typed-name">Thalia Tanguila</span></h1>
-          <p class="career">Ingeniería en Software</p>
-          <p class="intro">Soy estudiante de Ingeniería en Software y este portafolio reúne mis trabajos de forma elegante, clara y profesional para compartir con mi profesor.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="unidad1.html"><i class="fa-solid fa-book-open"></i> Unidad 1</a>
-            <a class="btn secondary" href="unidad2.html"><i class="fa-solid fa-palette"></i> Unidad 2</a>
-            <a class="btn secondary" href="unidad3.html"><i class="fa-solid fa-star"></i> Unidad 3</a>
-          </div>
-
-          <div class="hero-visual">
-            <img class="hero-image" src="imagenes/bts-hero.svg" alt="Ilustración decorativa de BTS" />
-            <div class="music-player">
-              <div class="music-player-top">
-                <span><i class="fa-solid fa-music"></i> Now playing</span>
-                <span class="pill">Love Yourself</span>
-              </div>
-              <div class="music-wave">
-                <span></span><span></span><span></span><span></span><span></span>
-              </div>
-              <div class="music-player-controls">
-                <button type="button" class="ghost-btn small"><i class="fa-solid fa-backward-step"></i></button>
-                <button type="button" class="ghost-btn small play"><i class="fa-solid fa-play"></i></button>
-                <button type="button" class="ghost-btn small"><i class="fa-solid fa-forward-step"></i></button>
-              </div>
+      <main class="container">
+        <section class="hero glass reveal">
+          <div class="hero-copy">
+            <div class="hero-badges">
+              <span class="badge"><i class="fa-solid fa-heart"></i> BTS inspired</span>
+              <span class="badge"><i class="fa-solid fa-star"></i> Premium UI</span>
+            </div>
+            <p class="eyebrow"><i class="fa-solid fa-heart"></i> Portafolio académico</p>
+            <h1>Hola, soy <span id="typed-name">Thalia Tanguila</span></h1>
+            <p class="career">Ingeniería en Software</p>
+            <p class="intro">Soy estudiante de Ingeniería en Software y este portafolio reúne mis trabajos de forma elegante, clara y profesional para compartir con mi profesor.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="unidad1.html"><i class="fa-solid fa-book-open"></i> Unidad 1</a>
+              <a class="btn btn-secondary" href="unidad2.html"><i class="fa-solid fa-palette"></i> Unidad 2</a>
+              <a class="btn btn-secondary" href="unidad3.html"><i class="fa-solid fa-star"></i> Unidad 3</a>
             </div>
           </div>
-        </div>
 
-        <div class="profile-card">
-          <div class="avatar-frame">
-            <img src="imagenes/perfil.jpeg" alt="Foto de perfil" />
+          <div class="media-card">
+            <div class="profile-backdrop"></div>
+            <img class="profile-photo" src="imagenes/perfil.jpeg" alt="Foto de perfil" />
           </div>
-          <div class="profile-info">
-            <h2>Thalia Tanguila</h2>
-            <p class="career-card">Ingeniería en Software</p>
-            <p class="biography">Me encanta crear experiencias digitales con estilo, sensibilidad y profesionalismo.</p>
+        </section>
+
+        <section class="section-head reveal">
+          <div>
+            <h2>Explora mis unidades</h2>
+            <p>Una experiencia visual moderna, brillante y elegante.</p>
+          </div>
+        </section>
+
+        <section class="unit-grid">
+          <article class="unit-card glass reveal">
+            <img src="imagenes/bts1.jpg" alt="Unidad 1" />
+            <div class="unit-body">
+              <h3>Unidad 1</h3>
+              <p>Trabajos iniciales, fundamentos y ejercicios con estilo visual profesional.</p>
+              <a class="btn btn-primary" href="unidad1.html">Ver trabajos</a>
+            </div>
+          </article>
+
+          <article class="unit-card glass reveal">
+            <img src="imagenes/bts2.jpg" alt="Unidad 2" />
+            <div class="unit-body">
+              <h3>Unidad 2</h3>
+              <p>Diseño visual, ideas creativas y procesamiento de conceptos clave.</p>
+              <a class="btn btn-primary" href="unidad2.html">Ver trabajos</a>
+            </div>
+          </article>
+
+          <article class="unit-card glass reveal">
+            <img src="imagenes/bts3.jpg" alt="Unidad 3" />
+            <div class="unit-body">
+              <h3>Unidad 3</h3>
+              <p>Presentación final y proyectos integrados de forma más elegante.</p>
+              <a class="btn btn-primary" href="unidad3.html">Ver trabajos</a>
+            </div>
+          </article>
+        </section>
+
+        <section class="about-grid">
+          <article class="card reveal">
+            <h3>Sobre mí</h3>
+            <p>Soy Thalia Tanguila, estudiante de Ingeniería en Software con pasión por crear experiencias digitales visualmente impactantes y funcionales.</p>
             <ul>
-              <li><strong>Materia:</strong> Programación</li>
-              <li><strong>Carrera:</strong> Ingeniería en Software</li>
-              <li><strong>Universidad:</strong> Universidad Técnica de Cotopaxi</li>
-              <li><strong>Semestre:</strong> Noveno</li>
+              <li>Programación</li>
+              <li>Diseño web</li>
+              <li>Presentación de proyectos</li>
             </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Detalles</h3>
+            <p>Este portafolio está pensado para mostrar mis trabajos con identidad visual moderna, brillante y profesional.</p>
+            <ul>
+              <li><i class="fa-solid fa-eye"></i> Diseño responsive</li>
+              <li><i class="fa-solid fa-moon"></i> Modo oscuro</li>
+              <li><i class="fa-solid fa-sparkles"></i> Efectos de neón</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-card glass">
+          <div class="footer-brand">
+            <img src="imagenes/bts-logo.svg" alt="Logo BTS" />
+            <div>
+              <div>I Purple You</div>
+              <small>Thalia Tanguila • Ingeniería en Software</small>
+            </div>
+          </div>
+          <div class="footer-links">
+            <a href="https://github.com/" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="mailto:thalia@example.com"><i class="fa-solid fa-envelope"></i> Correo</a>
+            <a href="#"><i class="fa-solid fa-university"></i> Universidad</a>
           </div>
         </div>
-      </section>
-
-      <section class="section-grid">
-        <article class="glass card reveal">
-          <div class="card-heading">
-            <h3><i class="fa-solid fa-star"></i> Calificación de unidades</h3>
-            <p>Tu progreso brillante en cada etapa.</p>
-          </div>
-          <div class="rating-table">
-            <div class="rating-row"><span>Unidad 1</span><div class="stars" data-unit="1"></div></div>
-            <div class="rating-row"><span>Unidad 2</span><div class="stars" data-unit="2"></div></div>
-            <div class="rating-row"><span>Unidad 3</span><div class="stars" data-unit="3"></div></div>
-          </div>
-        </article>
-
-        <article class="glass card reveal">
-          <div class="card-heading">
-            <h3><i class="fa-solid fa-folder-open"></i> Explora mis unidades</h3>
-            <p>Desliza por cada tema con una estética elegante.</p>
-          </div>
-          <div class="unit-grid">
-            <a class="unit-card" href="unidad1.html">
-              <img src="imagenes/bts-unidad1.svg" alt="Imagen de la Unidad 1" />
-              <div class="unit-body">
-                <h4>Unidad 1</h4>
-                <p>Trabajos iniciales, fundamentos y ejercicios.</p>
-                <span class="unit-link">Ver más</span>
-              </div>
-            </a>
-            <a class="unit-card" href="unidad2.html">
-              <img src="imagenes/bts-unidad2.svg" alt="Imagen de la Unidad 2" />
-              <div class="unit-body">
-                <h4>Unidad 2</h4>
-                <p>Diseño visual, diagramas y estructura creativa.</p>
-                <span class="unit-link">Ver más</span>
-              </div>
-            </a>
-            <a class="unit-card" href="unidad3.html">
-              <img src="imagenes/bts-unidad3.svg" alt="Imagen de la Unidad 3" />
-              <div class="unit-body">
-                <h4>Unidad 3</h4>
-                <p>Presentación final y integración de proyectos.</p>
-                <span class="unit-link">Ver más</span>
-              </div>
-            </a>
-          </div>
-          <div class="status-bar">
-            <span><i class="fa-solid fa-eye"></i> <span id="visitCount">0 visitas</span></span>
-            <span><i class="fa-solid fa-clock"></i> <span id="date">--/--/----</span></span>
-          </div>
-        </article>
-      </section>
-    </main>
+      </footer>
+    </div>
 
     <button id="backToTop" class="back-top"><i class="fa-solid fa-arrow-up"></i></button>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
