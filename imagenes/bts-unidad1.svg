@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" rx="32" fill="#34104f"/>
+  <circle cx="470" cy="120" r="110" fill="#ff6fa7" opacity="0.35"/>
+  <path d="M120 310c60-98 128-148 218-148 94 0 164 45 232 132" fill="none" stroke="#ffdbed" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <text x="90" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="800" fill="#ffffff">U1</text>
+  <text x="90" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="#ffeaf5">BTS • Inicio</text>
+  <path d="M420 90l18 40 42 7-31 25 10 42-37-21-37 21 10-42-31-25 42-7z" fill="#ffd7ea"/>
+</svg>

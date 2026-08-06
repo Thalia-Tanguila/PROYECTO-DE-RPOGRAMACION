@@ -26,21 +26,47 @@
     <main class="container">
       <section class="hero glass reveal">
         <div class="hero-copy">
+          <div class="hero-badges">
+            <span class="chip"><i class="fa-solid fa-heart"></i> BTS vibe</span>
+            <span class="chip"><i class="fa-solid fa-star"></i> Diseño elegante</span>
+          </div>
           <p class="eyebrow"><i class="fa-solid fa-heart"></i> Portafolio académico</p>
           <h1>Hola, soy <span id="typed-name">Thalia Tanguila</span></h1>
+          <p class="career">Ingeniería en Software</p>
           <p class="intro">Soy estudiante de Ingeniería en Software y este portafolio reúne mis trabajos de forma elegante, clara y profesional para compartir con mi profesor.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="unidad1.html">Explorar unidad 1</a>
-            <a class="btn secondary" href="unidad2.html">Explorar unidad 2</a>
-            <a class="btn secondary" href="unidad3.html">Explorar unidad 3</a>
+            <a class="btn primary" href="unidad1.html"><i class="fa-solid fa-book-open"></i> Unidad 1</a>
+            <a class="btn secondary" href="unidad2.html"><i class="fa-solid fa-palette"></i> Unidad 2</a>
+            <a class="btn secondary" href="unidad3.html"><i class="fa-solid fa-star"></i> Unidad 3</a>
+          </div>
+
+          <div class="hero-visual">
+            <img class="hero-image" src="imagenes/bts-hero.svg" alt="Ilustración decorativa de BTS" />
+            <div class="music-player">
+              <div class="music-player-top">
+                <span><i class="fa-solid fa-music"></i> Now playing</span>
+                <span class="pill">Love Yourself</span>
+              </div>
+              <div class="music-wave">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="music-player-controls">
+                <button type="button" class="ghost-btn small"><i class="fa-solid fa-backward-step"></i></button>
+                <button type="button" class="ghost-btn small play"><i class="fa-solid fa-play"></i></button>
+                <button type="button" class="ghost-btn small"><i class="fa-solid fa-forward-step"></i></button>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="profile-card">
-          <img src="imagenes/perfil.jpeg" alt="Foto de perfil" />
+          <div class="avatar-frame">
+            <img src="imagenes/perfil.jpeg" alt="Foto de perfil" />
+          </div>
           <div class="profile-info">
             <h2>Thalia Tanguila</h2>
-            <p class="biography">Estudiante universitaria apasionada por el diseño, la programación y la creación de experiencias digitales modernas.</p>
+            <p class="career-card">Ingeniería en Software</p>
+            <p class="biography">Me encanta crear experiencias digitales con estilo, sensibilidad y profesionalismo.</p>
             <ul>
               <li><strong>Materia:</strong> Programación</li>
               <li><strong>Carrera:</strong> Ingeniería en Software</li>
@@ -53,7 +79,10 @@
 
       <section class="section-grid">
         <article class="glass card reveal">
-          <h3><i class="fa-solid fa-star"></i> Calificación de unidades</h3>
+          <div class="card-heading">
+            <h3><i class="fa-solid fa-star"></i> Calificación de unidades</h3>
+            <p>Tu progreso brillante en cada etapa.</p>
+          </div>
           <div class="rating-table">
             <div class="rating-row"><span>Unidad 1</span><div class="stars" data-unit="1"></div></div>
             <div class="rating-row"><span>Unidad 2</span><div class="stars" data-unit="2"></div></div>
@@ -62,19 +91,34 @@
         </article>
 
         <article class="glass card reveal">
-          <h3><i class="fa-solid fa-folder-open"></i> Explora mis unidades</h3>
+          <div class="card-heading">
+            <h3><i class="fa-solid fa-folder-open"></i> Explora mis unidades</h3>
+            <p>Desliza por cada tema con una estética elegante.</p>
+          </div>
           <div class="unit-grid">
             <a class="unit-card" href="unidad1.html">
-              <h4>Unidad 1</h4>
-              <p>Trabajos iniciales, fundamentos y ejercicios.</p>
+              <img src="imagenes/bts-unidad1.svg" alt="Imagen de la Unidad 1" />
+              <div class="unit-body">
+                <h4>Unidad 1</h4>
+                <p>Trabajos iniciales, fundamentos y ejercicios.</p>
+                <span class="unit-link">Ver más</span>
+              </div>
             </a>
             <a class="unit-card" href="unidad2.html">
-              <h4>Unidad 2</h4>
-              <p>Diseño visual, diagramas y estructura creativa.</p>
+              <img src="imagenes/bts-unidad2.svg" alt="Imagen de la Unidad 2" />
+              <div class="unit-body">
+                <h4>Unidad 2</h4>
+                <p>Diseño visual, diagramas y estructura creativa.</p>
+                <span class="unit-link">Ver más</span>
+              </div>
             </a>
             <a class="unit-card" href="unidad3.html">
-              <h4>Unidad 3</h4>
-              <p>Presentación final y integración de proyectos.</p>
+              <img src="imagenes/bts-unidad3.svg" alt="Imagen de la Unidad 3" />
+              <div class="unit-body">
+                <h4>Unidad 3</h4>
+                <p>Presentación final y integración de proyectos.</p>
+                <span class="unit-link">Ver más</span>
+              </div>
             </a>
           </div>
           <div class="status-bar">

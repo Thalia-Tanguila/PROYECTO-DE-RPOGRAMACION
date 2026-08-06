@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" rx="32" fill="#4b1458"/>
+  <rect x="80" y="90" width="440" height="220" rx="28" fill="#ffffff" opacity="0.12"/>
+  <circle cx="170" cy="200" r="70" fill="#ff7eb3" opacity="0.35"/>
+  <path d="M250 110h180" stroke="#ffd6e8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M250 160h120" stroke="#ffd6e8" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+  <path d="M250 210h150" stroke="#ffd6e8" stroke-width="9" stroke-linecap="round" opacity="0.6"/>
+  <text x="90" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#fff6fc">U2 • Diseño</text>
+  <path d="M470 100l16 36 38 6-28 23 8 38-34-18-34 18 8-38-28-23 38-6z" fill="#ffd6e8"/>
+</svg>

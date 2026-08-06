@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0d4c"/>
+      <stop offset="50%" stop-color="#8e24aa"/>
+      <stop offset="100%" stop-color="#ff4da6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fff0fc" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff0fc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="600" rx="40" fill="url(#bg)"/>
+  <circle cx="730" cy="170" r="180" fill="url(#glow)"/>
+  <circle cx="180" cy="460" r="140" fill="#ffffff" opacity="0.08"/>
+  <path d="M150 470c80-110 170-180 290-180 120 0 220 70 320 180" fill="none" stroke="#ffd6f2" stroke-width="9" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="240" cy="230" r="32" fill="#ffcae5" opacity="0.9"/>
+  <circle cx="310" cy="180" r="22" fill="#ffe6f3" opacity="0.8"/>
+  <circle cx="620" cy="220" r="20" fill="#ffebfa" opacity="0.85"/>
+  <path d="M220 175c22-30 54-40 95-40 32 0 58 9 79 24" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" opacity="0.25"/>
+  <path d="M580 150c48 10 86 40 100 88" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.32"/>
+  <text x="115" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="140" font-weight="800" fill="#ffffff" letter-spacing="12">BTS</text>
+  <text x="115" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" fill="#ffe9f7" letter-spacing="6">Love Yourself • 7</text>
+  <path d="M660 380c18-40 54-62 102-62 36 0 72 17 93 48" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <path d="M145 120l18 38 40 8-30 24 8 39-36-20-36 20 8-39-30-24 40-8z" fill="#ffd4ec"/>
+  <path d="M735 110l14 28 31 5-23 19 7 30-28-14-28 14 7-30-23-19 31-5z" fill="#ffd4ec" opacity="0.95"/>
+</svg>
