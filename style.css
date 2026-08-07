@@ -759,3 +759,14 @@ button {
   letter-spacing: 4px;
   text-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
 }
+.datos-academicos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+.datos-academicos p {
+  font-size: 0.95rem;
+}
